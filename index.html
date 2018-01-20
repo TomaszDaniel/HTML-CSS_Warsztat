@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-    <header>
-        <div class="footHeadContainer">
+    <header class="container" id="headerPadding">
+
             <div class="row">
-                <h1>Sit on chair</h1>
+                <div class="logo">Sit <span>on</span> chair</div>
                 <nav>
                     <ul>
                         <li>o firmie
@@ -24,24 +24,33 @@
                     </ul>
                 </nav>
             </div>
-        </div>
+
     </header>
 
-    <section id="gradient">
-        <div class="container">
+            <p class="row">
 
-            <div class="row">                       <!-- PAMIETAJ ZEBY DODAC STRZALKI -->
+                <aside class="leftArrow">
+                    <
+                </aside>
+
                 <article class="blackChair">
 
                 </article>
 
-                <article>
-                    <h2>Sit on our chair</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta vitae ante at lobortis. Aliquam congue mollis nunc, nec euismod dui mollis sit amet. Cras consequat dolor vel tortor iaculis blandit. Mauris hendrerit scelerisque semper. Cras dignissim, mauris non molestie dignissim, nisi turpis dignissim sapien, sed convallis dui odio eget orci.</p>
-                    <input type="button" value="Zobacz Więcej">
+                <aside class="rightArrow">
+                    <p> ></p>
+                </aside>
+
+                <article class="firstSectionArticle">
+
+                    <div class="contentFirstSection">
+                        <h1>Sit <span>on</span> our <span>chair</span></h1>
+                        <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna.</p>
+                        <button>Zobacz Więcej</button>
+                    </div>
+
                 </article>
-            </div>
-        </div>
+
     </section>
 
     <section>
@@ -64,7 +73,9 @@
 
 
                 <article class="pictureDiv thirdChair">
-                    5
+                    <h2>Finds all inputs</h2>
+                    <p> sjdfjiodsnfviosdncio dfjdsif</p>
+                    <p>sdfdsfs</p>
                 </article>
             </div>
         </div>
@@ -73,20 +84,82 @@
     <section>
         <div class="container">
             <div class = "row">
-                <div>
+                <div class = "marginTop">
                 <h3>Cennik<hr class="greeLine"></h3>
                 </div><br>
 
 
                 <article class = "plan">
+                    <div class="whiteCircle">
+                        <div class="greyCircle">
+
+                        </div>
+                    </div>
+                    <div class="headerCard">Basic Plan</div>
+                    <div class="priceCircle">
+
+                        <p class="priceNumber">85<sup>99</sup></p>
+                        <p class="plnSize">Pln/Msc</p>
+
+                    </div>
+
+                    <div class="textInPrice">
+                        <p>Zakup towaru + dowóz</p>
+                        <p>Serwis</p>
+                    </div>
+
+                    <button class="priceButton">Dołącz</button>
 
                 </article>
 
                 <article class = "plan">
 
+                    <div class="whiteCircle">
+                        <div class="greyCircle">
+
+                        </div>
+                    </div>
+                    <div class = "headerCard">Basic Plan</div>
+                    <div class="priceCircle">
+
+                        <p class="priceNumber">95<sup>99</sup></p>
+                        <p class="plnSize">Pln/Msc</p>
+
+                    </div>
+
+                    <div class="textInPrice">
+                        <p>Zakup towaru + dowóz</p>
+                        <p>Serwis</p>
+                        <p>Gwarancja 5 lat</p>
+                    </div>
+
+                    <button class="priceButton">Dołącz</button>
+
                 </article>
 
                 <article class = "plan">
+
+                    <div class="whiteCircle">
+                        <div class="greyCircle">
+
+                        </div>
+                    </div>
+                    <div class="headerCard">Basic Plan</>
+                    <div class="priceCircle">
+
+                        <p class="priceNumber">211<sup>00</sup></p>
+                        <p class="plnSize">Pln/Msc</p>
+
+                    </div>
+
+                    <div class="textInPrice">
+                        <p>Zakup towaru + dowóz</p>
+                        <p>Serwis</p>
+                        <p>Gwarancja 6 lat</p>
+                        <p>Porady projektanta</p>
+                    </div>
+
+                    <button class="priceButton">Dołącz</button>
 
                 </article>
 
@@ -141,30 +214,35 @@
     </section>
 
     <footer>
-        <div class="footHeadContainer">
+        <div class="container">
 
             <div class="block"> Copyright 2014 | All rights reserved - Sit On Chair</div>
 
             <div class="right"> SIT ON CHAIR</div>
 
-        <div class="footerDiv">
+            <div class="footerDiv">
 
-            <div class = "socialMedia" id="flickr">
+                <a target="_blank" href="https://www.flickr.com/">
+                    <div class = "socialMedia" id="flickr">
+                    </div>
+                </a>
+
+                <a target="_blank" href="https://vimeo.com">
+                    <div class = "socialMedia" id="vimeo">
+                    </div>
+                </a>
+
+                <a target="_blank" href="https://pl.pinterest.com/">
+                    <div class = "socialMedia" id="pinterest">
+                    </div>
+                </a>
+
+                <a target="_blank" href="https://twitter.com/">
+                    <div class = "socialMedia" id="twitter">
+                    </div>
+                </a>
 
             </div>
-
-            <div class = "socialMedia" id="vimeo">
-
-            </div>
-
-            <div class = "socialMedia" id="pinterest">
-
-            </div>
-
-            <div class = "socialMedia" id="twitter">
-
-            </div>
-        </div>
 
         </div>
     </footer>
