@@ -1,2 +1,2 @@
-# HTML-CSS_Warsztat
-prosta strona z wykorzystaniem HTML/CSS
+# Sit On Chair
+first project HTML/CSS
